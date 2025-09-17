@@ -1,4 +1,4 @@
-- template: templates/variables.yml@templatesRepo
+- template: variables.yml@Templates
   parameters:
     SITE_URL: 'https://webapp-spacegame-web-test-1.azurewebsites.net'
     WebAppNameDev: 'webapp-spacegame-web-dev-1'
