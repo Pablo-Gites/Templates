@@ -1,8 +1,7 @@
-- template: variables.yml@Templates
-  parameters:
-    STAGING_HOSTNAME: 'webapp-spacegame-web-staging-1.azurewebsites.net'
-    SITE_URL: 'https://webapp-spacegame-web-test-1.azurewebsites.net'
-    WebAppNameDev: 'webapp-spacegame-web-dev-1'
-    WebAppNameStaging: 'webapp-spacegame-web-staging-1'
-    WebAppNameTest: 'webapp-spacegame-web-test-1'
-    jmeterVersion: '5.4.3'
+variables:
+  STAGING_HOSTNAME: 'webapp-spacegame-web-staging-1.azurewebsites.net'
+  SITE_URL: 'https://webapp-spacegame-web-test-1.azurewebsites.net'
+  WebAppNameDev: 'webapp-spacegame-web-dev-1'
+  WebAppNameStaging: 'webapp-spacegame-web-staging-1'
+  WebAppNameTest: 'webapp-spacegame-web-test-1'
+  jmeterVersion: '5.4.3'
