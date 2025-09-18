@@ -1,4 +1,6 @@
 variables:
+  buildConfiguration: 'Release'
+  dotnetSdkVersion: '8.x'
   STAGING_HOSTNAME: 'webapp-spacegame-web-staging-1.azurewebsites.net'
   SITE_URL: 'https://webapp-spacegame-web-test-1.azurewebsites.net'
   WebAppNameDev: 'webapp-spacegame-web-dev-1'
